@@ -22,7 +22,7 @@ import useUpdateLocation from './hooks/useUpdateLocation.jsx'
 import TrackOrderPage from './pages/TrackOrderPage.jsx'
 import { io } from 'socket.io-client'
 import { setSocket } from './redux/userSlice.js'
-export const serverUrl = "http://localhost:8000"
+export const serverUrl = "https://vingo-backend-658r.onrender.com"
 const App = () => {
   const { userData } = useSelector(state => state.user)
   const dispatch = useDispatch()
